@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Portfolio page</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Iuliia Bazhutina</h1>
+        <nav>
+            <ul>
+                <li><button href="#home">Home</button></li>
+                <li><button href="#about">About</button></li>
+                <li><button href="#portfolio">Portfolio</button></li>
+                <li><button href="#contact">Contact</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid-container">
+        <div>
+            <main>
+                <article>
+                    <h2>About Me</h2>
+                    <p>There will be short introduction about myself</p>
+                </article>
+
+                <section id="portfolio">
+                    <h2>Portfolio</h2>
+
+                    <h3>Project #1</h3>
+                    <p>There will be description of my project #1</p>
+
+                    <h3>Project #2</h3>
+                    <p>There will be description of my project #2</p>
+
+                    <video width="640" height="360" controls alt="The video shows sea waves at sunset">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video element
+                    </video>
+                </section>
+
+                <section>
+                    <h3>Please leave your contact information</h3>
+
+                    <div class="container">
+
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="message">
+
+                    </div>
+                </section>
+
+            </main>
+        </div>
+
+        <div>
+            <aside>
+                <h3>Related links</h3>
+                <ul>
+                    <li><a href="https://humber.ca/">My college page</a></li>
+
+                    <li><a href="https://dorzairi.notion.site/CPAN-134-Web-Programming-and-Design-7b6d5a22c0f442da9f49b8f4af00d99a">Web
+                            programming page</a></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact: Iuliia.Bazhutina@gmail.com</p>
+        <p>&copy; 2024 Iuliia Bazhutina</p>
+    </footer>
+
+</body>
+
+</html>
